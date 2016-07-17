@@ -1,2 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="060a7157438a0b1b0706b99c430fb3ecbc5a79a4">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.0.2_01469610a66fcc5b4fb3022a4dd00f57b29b2e4f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.1.0/9b51f7d0c19f179b52beab7cb433f8ba5cf786a4/okhttp-2.1.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="9b51f7d0c19f179b52beab7cb433f8ba5cf786a4">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.1.0_c6b3c10fcc7ea0a0e7fc278c969e5383c827e491/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/2.1.0/6025b7df8a6a4193138723ef120e7228b6a97024/okhttp-urlconnection-2.1.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6025b7df8a6a4193138723ef120e7228b6a97024">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-urlconnection-2.1.0_9fc0c8b753af15a20b4973c27ddc561ade93f9df/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.22.0/244350c0c845c583717ade13f5666a452fd0cfa/google-api-client-1.22.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0244350c0c845c583717ade13f5666a452fd0cfa">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-client-1.22.0_70fb69dc197351dab92d893276b056d63faeb71d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="aec1bc54964a85d851c2c1b1cb7f90f7dbd755ab">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.0.2_a9b4bbbd475c9523734ae6537fd3eb30ae03d6eb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.22.0/1d63f369ac78e4838a3197147012026e791008cb/google-oauth-client-1.22.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="1d63f369ac78e4838a3197147012026e791008cb">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-oauth-client-1.22.0_6ae20a28718b429323921056d89b6cbf991296c3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-android/1.22.0/6d1e1a76a16a244ab2f41775791be1dd0ec2878a/google-http-client-android-1.22.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="6d1e1a76a16a244ab2f41775791be1dd0ec2878a">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-android-1.22.0_9c7683417bc2d29c0287d008bf0b8e0f3f6a81da/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/it.sephiroth.android.library.picasso/picasso/2.5.2.4b/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="9099e6b672d8e3e8577d6db64c4ab99f6243132c">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/it.sephiroth.android.library.picasso-picasso-2.5.2.4b_9a029bf40ba2f7fe384fa14a7413384dcabc0cea/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_3123154ed23d52f269a618c48ffd6a16b849a5fe/classes.dex" />
+    </item>
+    <item
+        jar="/Applications/Android Studio.app/Contents/gradle/m2repository/com/intellij/annotations/12.0/annotations-12.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="bbcf6448f6d40abe506e2c83b70a3e8bfd2b4539">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/annotations-12.0_6ab208e9bda0af5e9ac0dc3d8044a83a3ea0a803/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.0.1/39eff75ddcb987ff65888361a29f489c178429a3/okio-1.0.1.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="39eff75ddcb987ff65888361a29f489c178429a3">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.0.1_ee56a38d6e89d72c826c79004f04b49c566a700d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/17.0/463f8378feba44df7ba7cd9272d01837dad62b36/guava-jdk5-17.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="463f8378feba44df7ba7cd9272d01837dad62b36">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/guava-jdk5-17.0_433f694d582d386d2fec577a9619d1db1872efa3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="94d9cedd04b124aed044ac71c451a292856d854c">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.0.2_42cfec512bb0c816718c8b714cfdb45288b25742/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="9919563cffd8e3732e944d3c437d4b9575a08448">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.0.2_8d45f1150790fcfb10127feaaef8a7863c24cf09/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/5fe28b9518e58819180a43a850fbc0dd24b7c050/commons-lang3-3.4.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-lang3-3.4_ec5cfa7be74c3461fcdcadabb3524099fff0c82f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_91c5a9ee78e488587eb8b3338749683adf755663/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.1.3/f6c3aed1cdfa21b5c1737c915186ea93a95a58bd/jackson-core-2.1.3.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.1.3_f0ad2bc6090ab8befa8d6aa1ffcd3bcbafdc82ec/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_af45dd7be5175fecec6b9020c9e05f6968720b11/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.koushikdutta.async/androidasync/2.1.8/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="210a4042913301c708bd9aeed46e4ebb5d77e462">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.koushikdutta.async-androidasync-2.1.8_4ba81c7d2089a662f95a3a53e6e9bf772c3af06b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_6a13d2c68b7f1c4c761f87e97c94d05ab6dbb3bf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="829c6e46cb221c2102801221c648b77113743e81">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.0.2_7a05e988ebea8a1c2a0d84f5f2ed2356543b70de/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.2/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4022261eeea0d92eb2997a68d2c1f084a16abad9">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.0.2_4ce6301ba3045ee7525288a779c2437adbba2df5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_e09c29d971e0a3c85571b64600e05cdffc64b5f8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-1.3.9_d0faaf32c95eb37ff6f2b8cc52deb761a4c4b500/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.22.0/cc014d64ae11117e159d334c99d9c246d9b36f44/google-http-client-jackson2-1.22.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="cc014d64ae11117e159d334c99d9c246d9b36f44">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-jackson2-1.22.0_1734527f36f552b66e1ae5c48f5c19262fc955cd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.3_380b1680b3543f5199aa384fae287f9247aae4f6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-calendar/v3-rev201-1.22.0/82a537c9c05f8e4b4f0ca6512e086da47ec74557/google-api-services-calendar-v3-rev201-1.22.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="82a537c9c05f8e4b4f0ca6512e086da47ec74557">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-services-calendar-v3-rev201-1.22.0_6edcffcbf93a69f6474f949acb4ce0108ea40d99/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.koushikdutta.ion/ion/2.1.8/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="800456ff7459edf31e780604a318741d0f8ace09">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.koushikdutta.ion-ion-2.1.8_be22cf42c8e1904c9842c37a6a3afb307f38773e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4b8ffee500288f7687c215e920f3f594b5b4daa8">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e2d059c2e74fc580e502708dd2d887d7fe9f850a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-android/1.22.0/7a0fe12b7d8189a821934d6f9d6586d00180e461/google-api-client-android-1.22.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="7a0fe12b7d8189a821934d6f9d6586d00180e461">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-api-client-android-1.22.0_3b7dce1a0662718943e757e934c29e4b818c369e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="f4a66a7d108c6c7674fcdec6c8c64d2a304fb072">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d4a31bedc488eea36a2c403f374f53e720f88971/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/pub.devrel/easypermissions/0.1.5/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2ffd97c466e0021572f3c7333839c71ecdf393ed">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/pub.devrel-easypermissions-0.1.5_1ca410d04f71f947cbe81d328fad03aaa76d7e5c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.22.0/d441fc58329c4a4c067acec04ac361627f66ecc8/google-http-client-1.22.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d441fc58329c4a4c067acec04ac361627f66ecc8">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/google-http-client-1.22.0_a563ffb568e72c42fbcdfd916c0ab4bdf2680f69/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/24.0.0/2943c74db6d4346ab8c6531adac91fa05c137c40/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_9cd6018576daa5ca74b2840255efcc74977dac82/classes.dex" />
+    </item>
+
+</items>

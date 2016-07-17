@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.calendarquickstart">
+    package="com.example.abirshukla.yourday">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -8,12 +8,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/quoteicon"
-        android:label="Your Quote of the Day!"
+        android:icon="@drawable/icon"
+        android:label="Your Day!"
+        android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity
-            android:name=".MainActivity"
-            android:label="Your Quote of the Day!">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,34 +24,10 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity
-            android:name=".result"
-            android:label="@string/title_activity_result"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ana1"
-            android:label="@string/title_activity_ana1"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ana2"
-            android:label="@string/title_activity_ana2"
-            android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".set"
-            android:label="@string/title_activity_set"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" />
-
-        <service
-            android:name=".Note"
-            android:enabled="true"
-            android:exported="true" />
-
-        <activity
-            android:name=".we"
-            android:label="@string/title_activity_we"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-
+        <activity android:name=".ana1" />
+        <activity android:name=".ana2" />
+        <activity android:name=".result" />
+        <activity android:name=".pic"></activity>
     </application>
 
 </manifest>
