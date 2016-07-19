@@ -5,17 +5,22 @@ import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.KeyEvent;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import android.support.design.widget.FloatingActionButton;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
 
 import java.io.InputStream;
 import java.net.URL;
+import java.util.Calendar;
 
 public class result extends Activity {
     TextView quote;
@@ -39,11 +44,73 @@ public class result extends Activity {
         //String picUrl = userData.getString("picUrl");
         //new DownLoadImageTask(imageView).execute(picUrl);
         getHTML(author);
+        String[] TO = {""};
+        String[] CC = {""};
+        emailIntent = new Intent(Intent.ACTION_SEND);
+
+        emailIntent.setData(Uri.parse("mailto:"));
+        emailIntent.setType("text/plain");
+        emailIntent.putExtra(Intent.EXTRA_EMAIL, TO);
+        emailIntent.putExtra(Intent.EXTRA_CC, CC);
+        Calendar c = Calendar.getInstance();
+        int da = c.get(Calendar.DATE);
+        int month = c.get(Calendar.MONTH);
+        int year = c.get(Calendar.YEAR);
+        String monthString = "";
+        switch (month) {
+            case 0:  monthString = "January";
+                break;
+            case 1:  monthString = "February";
+                break;
+            case 2:  monthString = "March";
+                break;
+            case 3:  monthString = "April";
+                break;
+            case 4:  monthString = "May";
+                break;
+            case 5:  monthString = "June";
+                break;
+            case 6:  monthString = "July";
+                break;
+            case 7:  monthString = "August";
+                break;
+            case 8:  monthString = "September";
+                break;
+            case 9: monthString = "October";
+                break;
+            case 10: monthString = "November";
+                break;
+            case 11: monthString = "December";
+                break;
+            default: monthString = "Invalid month";
+                break;
+        }
+        String date = monthString+" "+da+", "+year;
+        emailIntent.putExtra(Intent.EXTRA_SUBJECT, "Your Quote of the Day for "+ date);
+        emailIntent.putExtra(Intent.EXTRA_TEXT, userQuote);
 
 
 
+        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                sendEmail();
+            }
+        });
 
 
+    }
+    public void sendEmail() {
+        try {
+            startActivity(Intent.createChooser(emailIntent, "Send mail..."));
+            finish();
+            System.out.println("Finished sending email...");
+            Toast.makeText(this, "Success!", Toast.LENGTH_SHORT).show();
+        }
+        catch (android.content.ActivityNotFoundException ex) {
+            Toast.makeText(this, "There is no email client installed.", Toast.LENGTH_SHORT).show();
+        }
     }
 
     public void getHTML(final String author) {

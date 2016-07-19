@@ -206,8 +206,10 @@ public class MainActivity extends Activity
         getResultsFromApi();
     }
     public void getPic(View view) {
-        Intent p = new Intent(this,pic.class);
-        startActivity(p);
+        what = "pic";
+        mProgress.show();
+        getResultsFromApi();
+        getResultsFromApi();
        /* what = "image";
         mProgress.show();
         getResultsFromApi();

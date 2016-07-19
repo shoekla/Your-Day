@@ -47,7 +47,8 @@ public class ana1 extends Activity {
 
             }
             else {
-                getHTML("http://abirshukla.pythonanywhere.com/picQ/life/");
+                String url ="http://abirshukla.pythonanywhere.com/searchImage/life/";
+                getHTML(url);
             }
         } else {
             if (what.equals("quote")) {
@@ -73,28 +74,48 @@ public class ana1 extends Activity {
                 String part = code.substring(begin + 1, end);
                 System.out.println("LinkA Part: " + part);
                 part = part.substring(part.lastIndexOf("/")+1,part.indexOf(".html"));
-                part=part.replace(" ","%20");
-                getHTML("http://abirshukla.pythonanywhere.com/picQ/"+part+"/");
+                String au = part.replace(" ","%20");
+                String url ="http://abirshukla.pythonanywhere.com/searchImage/"+au+"/";
+                getHTML(url);
             }
         }
     }
     public void getHTML(final String url) {
         if (url.contains("abirshukla")) {
-            System.out.println("Begin HTML");
-            final String[] d = new String[1];
-            Ion.with(getApplicationContext())
-                    .load(url)
-                    .asString()
-                    .setCallback(new FutureCallback<String>() {
-                        @Override
-                        public void onCompleted(Exception e, String result) {
-                            result = result.substring(result.indexOf("<p>")+3,result.indexOf("</p>"));
-                            Intent intent =new Intent(Intent.ACTION_VIEW);
-                            intent.setPackage("com.google.android.youtube");
-                            intent.setData(Uri.parse(result));
-                            startActivity(intent);
-                        }
-                    });
+            if (url.contains("searchImage")) {
+                Ion.with(getApplicationContext())
+                        .load(url)
+                        .asString()
+                        .setCallback(new FutureCallback<String>() {
+                            @Override
+                            public void onCompleted(Exception e, String result) {
+                                int be = result.indexOf(":");
+                                int begin = result.indexOf(" ",be);
+                                int end = result.indexOf("<",begin);
+                                String authorUrl = result.substring(begin+1,end);
+                                Intent pi = new Intent(ana1.this,pic.class);
+                                pi.putExtra("pic",authorUrl);
+                                startActivity(pi);
+                            }
+                        });
+
+            } else {
+                System.out.println("Begin HTML");
+                final String[] d = new String[1];
+                Ion.with(getApplicationContext())
+                        .load(url)
+                        .asString()
+                        .setCallback(new FutureCallback<String>() {
+                            @Override
+                            public void onCompleted(Exception e, String result) {
+                                result = result.substring(result.indexOf("<p>") + 3, result.indexOf("</p>"));
+                                Intent intent = new Intent(Intent.ACTION_VIEW);
+                                intent.setPackage("com.google.android.youtube");
+                                intent.setData(Uri.parse(result));
+                                startActivity(intent);
+                            }
+                        });
+            }
         }
         else {
             System.out.println("Begin HTML");

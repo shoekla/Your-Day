@@ -79,6 +79,13 @@
         <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.0.1_ee56a38d6e89d72c826c79004f04b49c566a700d/classes.dex" />
     </item>
     <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_30182b9f268a5b7b0b28d75ddc639b6f46e6bde7/classes.dex" />
+    </item>
+    <item
         jar="/Users/abirshukla/.gradle/caches/modules-2/files-2.1/com.google.guava/guava-jdk5/17.0/463f8378feba44df7ba7cd9272d01837dad62b36/guava-jdk5-17.0.jar"
         jumboMode="true"
         revision="24.0.0"
@@ -119,6 +126,13 @@
         revision="24.0.0"
         sha1="f6c3aed1cdfa21b5c1737c915186ea93a95a58bd">
         <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.1.3_f0ad2bc6090ab8befa8d6aa1ffcd3bcbafdc82ec/classes.dex" />
+    </item>
+    <item
+        jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_0111ff839da937b538f91968f4bf61dba631dcb5/classes.dex" />
     </item>
     <item
         jar="/Users/abirshukla/YourDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
@@ -201,7 +215,7 @@
         jar="/Users/abirshukla/YourDay/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="4b8ffee500288f7687c215e920f3f594b5b4daa8">
+        sha1="8c73c67a04d42abfe1bcfe41f664654c3085e603">
         <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_e2d059c2e74fc580e502708dd2d887d7fe9f850a/classes.dex" />
     </item>
     <item
@@ -215,7 +229,7 @@
         jar="/Users/abirshukla/YourDay/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         revision="24.0.0"
-        sha1="f4a66a7d108c6c7674fcdec6c8c64d2a304fb072">
+        sha1="7d3ca762c6a221f5a0188f697e3593b873e8ee81">
         <dex dex="/Users/abirshukla/YourDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d4a31bedc488eea36a2c403f374f53e720f88971/classes.dex" />
     </item>
     <item

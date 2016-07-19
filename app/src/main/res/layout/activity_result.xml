@@ -9,11 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@drawable/backl"
     tools:context="com.example.abirshukla.yourday.result">
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Your Day!"
+        android:text="Your Quote of the Day!"
         android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
@@ -60,11 +62,20 @@
 
     <ImageView
         android:id="@+id/imageView"
+
         android:layout_width="150dp"
         android:layout_height="200dp"
         android:adjustViewBounds="true"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/lin"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="15dp"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_dialog_email"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
 
 </RelativeLayout>

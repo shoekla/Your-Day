@@ -35,4 +35,5 @@ dependencies {
     compile 'org.apache.commons:commons-lang3:3.4'
     compile 'it.sephiroth.android.library.picasso:picasso:2.5.2.4b'
     compile 'com.android.support:support-v4:24.0.0'
+    compile 'com.android.support:design:23.1.1'
 }
