@@ -6,5 +6,9 @@ Recently a friend gave me an idea to improve this app, so that is what I am curr
 
 Presentation Url (This Url is for both "Your Quote of the Day" and "Your Day"): http://abirshukla.pythonanywhere.com/yourQuote/  
 
+#Screen Shots
+<br/>
+<img src="https://scontent-ord1-1.xx.fbcdn.net/v/t34.0-12/13672391_10208141043577812_1899869348_n.png?oh=e1b89f28d94eb3cdd3016e26846797a4&oe=5799B692"/>
+
 
 
