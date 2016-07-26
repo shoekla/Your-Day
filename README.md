@@ -8,7 +8,9 @@ Presentation Url (This Url is for both "Your Quote of the Day" and "Your Day"): 
 
 #Screen Shots
 <br/>
+<!--
 <img src="https://scontent-ord1-1.xx.fbcdn.net/v/t34.0-12/13672391_10208141043577812_1899869348_n.png?oh=e1b89f28d94eb3cdd3016e26846797a4&oe=5799B692"/>
-
+-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wvkf7juJE1o" frameborder="0" allowfullscreen></iframe>
 
 
